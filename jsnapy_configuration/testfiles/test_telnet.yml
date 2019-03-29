@@ -1,0 +1,13 @@
+tests_include:
+  - test_telnet_config
+
+test_telnet_config:
+  - rpc: get-config
+  - kwargs:
+      filter_xml: configuration/system
+  - item:
+      xpath: system/services
+      tests:
+        - not-exists: telnet
+          err: "Test Failed!! telnet is configured"
+          info: "Test succeeded!! telnet is not configured"

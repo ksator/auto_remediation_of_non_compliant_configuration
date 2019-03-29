@@ -1,0 +1,12 @@
+engines:
+    - junos_syslog:
+        port: 516
+runner_dirs:
+    - /srv/runners
+pillar_roots:
+    base:
+        - /srv/pillar
+file_roots:
+    base:
+        - /srv/salt
+auto_accept: True

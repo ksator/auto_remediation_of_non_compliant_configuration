@@ -1,0 +1,7 @@
+base:
+    '*':
+        - rt
+{%- for item in junos %}
+    '{{ item.name }}':
+        - {{ item.name }}-details
+{%- endfor %}
