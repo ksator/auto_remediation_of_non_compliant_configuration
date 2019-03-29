@@ -22,6 +22,7 @@ services:
         - ./saltstack_configuration/reactor.conf:/etc/salt/master.d/reactor.conf
         - ./saltstack_configuration/reactor/.:/srv/reactor/.
         - ./saltstack_configuration/runners/.:/srv/runners/.
+        - ./jsnapy_configuration/testfiles/test_telnet.yml:/etc/jsnapy/testfiles/test_telnet.yml
     tty: true
 
   minion1:
