@@ -1,4 +1,4 @@
-This repository is about **auto remediation of non compliant configuration**  
+This repository is about **auto remediation** of non compliant configuration  
 
 It uses Junos devices, SaltStack and Jsnapy.  
 At each Junos commit, SaltStack is notified with a syslog message, and runs a Jsnapy test to audit the new Junos configuration.  
