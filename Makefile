@@ -1,11 +1,9 @@
-generate-conf:
+up:
 	@echo "======================================================================"
 	@echo "Build SaltStack configuration files from template"
 	@echo "======================================================================"
 	python generate_saltstack_configuration.py
 	ls saltstack_configuration -l
-
-up:	
 	@echo "======================================================================"
 	@echo "Start all containers"
 	@echo "======================================================================"
