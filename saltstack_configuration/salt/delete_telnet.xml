@@ -1,0 +1,8 @@
+<configuration>
+        <system>
+            <services>
+                <telnet operation="delete">
+                </telnet>
+            </services>
+        </system>
+</configuration>
