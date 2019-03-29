@@ -4,11 +4,13 @@ junos:
       ip: 100.123.1.0
       passwd: Juniper!1
       username: jcluser
+      netconf_port: 830
       syslog_host: 100.123.35.0
     - name: vMX2
       ip: 100.123.1.1
       passwd: Juniper!1
       username: jcluser
+      netconf_port: 830
       syslog_host: 100.123.35.0
 
 
