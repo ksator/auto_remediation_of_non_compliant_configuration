@@ -1,0 +1,54 @@
+---
+version: '2'
+
+networks:
+  salt:
+
+services:
+  master:
+    networks:
+        - salt
+    image: ksator/saltstack_master_junos_syslog_engine_docker:latest
+    container_name: master
+    ports:
+        - "516:516/udp"
+        - "4505:4505"
+        - "4506:4506"
+        - "5001:5001"
+    volumes:
+        - ./saltstack_configuration/master:/etc/salt/master
+        - ./saltstack_configuration/pillar/.:/srv/pillar/
+        - ./saltstack_configuration/salt/.:/srv/salt/
+        - ./saltstack_configuration/reactor.conf:/etc/salt/master.d/reactor.conf
+        - ./saltstack_configuration/reactor/.:/srv/reactor/.
+        - ./saltstack_configuration/runners/.:/srv/runners/.
+    tty: true
+
+  minion1:
+    networks:
+        - salt
+    image: ksator/saltstack_minion_junos_modules_docker:latest
+    container_name: minion1
+    ports:
+        - "4605:4505"
+        - "4606:4506"
+    volumes:
+        - ./saltstack_configuration/minion:/etc/salt/minion
+        - ./saltstack_configuration/proxy:/etc/salt/proxy
+    tty: true
+    depends_on:
+        - "master"
+
+
+  request-tracker:
+    image: netsandbox/request-tracker
+    container_name: request-tracker
+    ports:
+      - "9080:80"
+    networks:
+      - salt
+
+
+
+
+
