@@ -53,3 +53,4 @@ jcluser@vMX1> show configuration | compare rollback 1
 -    telnet;
 ```
 
+**So, in few seconds only, the new issue has been automatically detected, reported, and fixed**  
