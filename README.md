@@ -1,6 +1,7 @@
 This repository is about **auto remediation** of non compliant configuration  
 
 This repository uses Junos devices, SaltStack, JSNAPy and Request Tracker.  
+
 At each Junos commit, SaltStack is notified with a syslog message, and runs a JSNAPy test to audit the new Junos configuration.  
 If the Junos configuration is not compliant with the JSNAPy rules, SaltStack updates the ticketing system (Request Tracker) with this issue, and fixes the issue and reports this activity on the ticketing system.  
 The ticket id is indicated in the Junos commit message.  
@@ -11,7 +12,7 @@ Example:
 
 configure telnet on a Junos device
 ```
-$ ssh 100.123.1.0
+$ ssh jcluser@100.123.1.0
 Password:
 Last login: Sat Mar 30 13:44:53 2019 from 100.123.35.0
 --- JUNOS 17.4R1-S2.2 Kernel 64-bit  JNPR-11.0-20180127.fdc8dfc_buil
