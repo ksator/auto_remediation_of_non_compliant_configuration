@@ -31,7 +31,7 @@ Exiting configuration mode
 ```
 
 SaltStack received the syslog commit message, and runs a JSNAPy test to audit the new Junos configuration.  
-Telnet is not allowed. The new Junos configuration is not compliant with the JSNAPy rules.  
+Telnet is not allowed. The new Junos configuration is not compliant with the JSNAPy rules. The JSNAPy test fails.  
 SaltStack updates the ticketing system (Request Tracker) to report this issue.  
 
 ![RT-new-ticket.png](RT-new-ticket.png)  
