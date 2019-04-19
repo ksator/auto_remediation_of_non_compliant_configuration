@@ -1,3 +1,5 @@
+# How to use this repository
+
 ## clone the repository
 ```
 git clone https://github.com/ksator/auto_remediation_of_non_compliant_configuration.git

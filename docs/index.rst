@@ -13,7 +13,9 @@ Contents:
    :caption: Contents: 
 
    README.md
+   Building-blocks.md
    Requirements-to-use-this-repository.md
+   How-to-use-this-repository.md
    Troubleshooting-guide.md
 
 Indices and tables

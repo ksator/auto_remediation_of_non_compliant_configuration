@@ -1,4 +1,6 @@
-# Docker
+# Trubleshooting-guide
+
+## Docker
 
 Run this command to list Docker images 
 ```
@@ -21,7 +23,7 @@ Run this command to list networks
 $ docker network ls
 ```
 
-# SaltStack
+## SaltStack
 
 Run this command to check the salt-master service status
 ``` 
@@ -69,7 +71,7 @@ to watch the event bus, start a shell session on the master and run this command
 docker exec -it master bash
 salt-run state.event pretty=True
 ```
-# JSNAPy
+## JSNAPy
 
 Run these commands 
 ``` 

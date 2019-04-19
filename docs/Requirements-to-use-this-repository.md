@@ -1,6 +1,8 @@
+# Requirements to use this repository
+
 You will need one Ubuntu VM and Junos devices.  
 
-# install these dependencies on the Ubuntu VM
+## install these dependencies on the Ubuntu VM
 ```
 sudo apt-get update
 sudo apt-get install python-pip -y
@@ -83,7 +85,7 @@ $ docker --version
 Docker version 18.03.1-ce, build 9ee9f40
 ```
 
-### install docker-compose on the Ubuntu VM
+## install docker-compose on the Ubuntu VM
 
 ```
 sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose

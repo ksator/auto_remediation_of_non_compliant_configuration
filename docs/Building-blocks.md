@@ -1,3 +1,5 @@
+# Building blocks
+
 ## SaltStack
 
 Salt is a remote execution tool and configuration management system:
