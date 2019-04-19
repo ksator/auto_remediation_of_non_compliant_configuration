@@ -71,9 +71,9 @@ SaltStack received the syslog commit message, and runs a JSNAPy test to audit th
 Telnet is not allowed. The new Junos configuration is not compliant with the JSNAPy rules. The JSNAPy test fails.  
 SaltStack updates the ticketing system (Request Tracker) to report this issue.  
 
-![RT-new-ticket.jng](RT-new-ticket.jpg)  
+![new ticket](RT-new-ticket.jpg)  
 
-![ticket-update](RT-ticket-update.jpg)
+![ticket update](RT-ticket-update.jpg)
 
 Then, SaltStack fixes this issue, and reports this new activity on the ticketing system.   
 
