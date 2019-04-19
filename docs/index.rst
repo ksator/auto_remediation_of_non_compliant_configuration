@@ -9,8 +9,7 @@ Welcome to auto_remediation_of_non_compliant_junos_configuration's documentation
 Contents:
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents: 
+   :maxdepth: 2 
 
    About-this-repository.md
    Building-blocks.md
