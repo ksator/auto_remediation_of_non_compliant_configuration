@@ -38,6 +38,8 @@ SaltStack updates the ticketing system (Request Tracker) to report this issue.
 
 ![RT-new-ticket.jpg](RT-new-ticket.jpg)  
 
+![RT-ticket-update.jpg](RT-ticket-update.jpg)
+
 Then, SaltStack fixes this issue, and reports this new activity on the ticketing system.   
 
 The ticket id is indicated in the Junos commit message.  
