@@ -10,7 +10,7 @@ pip install pyyaml jinja2
 pip list
 ```
 
-# install docker on the Ubuntu VM
+## install docker on the Ubuntu VM
 
 Check if Docker is already installed 
 ```
