@@ -11,8 +11,8 @@ Contents:
 .. toctree::
    :maxdepth: 2
    README.md
-
-
+   Requirements-to-use-this-repository.md
+   Troubleshooting-guide.md
 Indices and tables
 ==================
 
