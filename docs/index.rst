@@ -12,7 +12,7 @@ Contents:
    :maxdepth: 2
    :caption: Contents: 
 
-   README.md
+   About-this-repository.md
    Building-blocks.md
    Requirements-to-use-this-repository.md
    How-to-use-this-repository.md
