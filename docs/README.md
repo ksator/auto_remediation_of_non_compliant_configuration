@@ -36,10 +36,10 @@ SaltStack received the syslog commit message, and runs a JSNAPy test to audit th
 Telnet is not allowed. The new Junos configuration is not compliant with the JSNAPy rules. The JSNAPy test fails.  
 SaltStack updates the ticketing system (Request Tracker) to report this issue.  
 
-![RT-new-ticket.png](https://github.com/ksator/auto_remediation_of_non_compliant_configuration/RT-new-ticket.png)  
+![RT-new-ticket.png](https://github.com/ksator/auto_remediation_of_non_compliant_configurationubleshooting-guide/blob/master/RT-new-ticket.png)  
 
 Then, SaltStack fixes this issue, and reports this new activity on the ticketing system.   
-![RT-ticket-update.png](https://github.com/ksator/auto_remediation_of_non_compliant_configuration/RT-ticket-update.png)  
+![RT-ticket-update.png](https://github.com/ksator/auto_remediation_of_non_compliant_configuration/blob/master/RT-ticket-update.png)  
 
 The ticket id is indicated in the Junos commit message.  
 

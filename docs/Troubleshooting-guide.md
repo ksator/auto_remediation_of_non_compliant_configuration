@@ -1,4 +1,4 @@
-# Trubleshooting-guide
+# Troubleshooting-guide
 
 ## Docker
 
