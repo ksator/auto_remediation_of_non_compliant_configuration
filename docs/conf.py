@@ -45,7 +45,7 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-project = u'auto_remediation'
+project = u'auto_remediation_of_non_compliant_junos_configuration'
 copyright = u'2019, Khelil Sator'
 author = u'Khelil Sator'
 
